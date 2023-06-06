@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "DMP Helper",
+  "description": "EUR DMP Helper",
+  "version": "0.0.1",
+  "host_permissions": ["https://*.dmponline.eur.nl/*"],
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://*.dmponline.eur.nl/*"]
+    }
+  ]
+}
