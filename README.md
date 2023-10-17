@@ -7,6 +7,12 @@ Making Data Steward's life a bit easier via a Userscript
 1. Get a browser extension to run Userscript (e.g., Violentmonkey)
 2. Load the `dmp-helper.user.js` file
 
+## How to use
+
+1. Go to DMP Online
+2. Open an DMP
+3. Go to the "Write Plan" tab
+
 ## Features
 
 - Auto-expanding all the sections under the "Write Plan" tab
