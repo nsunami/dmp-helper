@@ -141,7 +141,7 @@ menuContainer.style.top = "50%";
 document.body.appendChild(menuContainer);
 
 // Copying the rich text to the clipboard
-// Thanks to: https://stackoverflow.com/questions/23934656/how-can-i-copy-rich-text-contents-to-the-clipboard-with-javascript
+// Thanks to: https://stackoverflow.com/a/50067769/6205282
 function copyToClip(str) {
   function listener(e) {
     e.clipboardData.setData("text/html", str);
