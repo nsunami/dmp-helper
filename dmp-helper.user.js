@@ -56,9 +56,10 @@ const dmpTitle = document.querySelector(
 
 const currentURL = window.location.href;
 
-const dmpIdRe = /(?<=dmponline\.eur\.nl\/plans\/)\d+/gm;
+// const dmpIdRe = /(?<=dmponline\.eur\.nl\/plans\/)\d+/gm;
+dmpIdRe = /dmponline.+plans\/(\d+)/gm;
 const dmpIdMatch = dmpIdRe.exec(currentURL);
-const dmpId = dmpIdMatch[0];
+const dmpId = dmpIdMatch[1];
 
 const emailSubject = `DMP Feedback Complete - "${dmpTitle.innerText}" - ${dmpId}`;
 
