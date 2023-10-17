@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        DMP Online Feedack Email
+// @name        DMP Online Helper
 // @namespace   Violentmonkey Scripts
 // @match       *://*.dmponline.eur.nl/*/edit
 // @grant       none
