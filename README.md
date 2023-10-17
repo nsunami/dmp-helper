@@ -17,9 +17,14 @@ Making Data Steward's life a bit easier via a Userscript
 
 - Auto-expanding all the sections under the "Write Plan" tab
 
+https://github.com/nsunami/dmp-helper-chrome/assets/17035406/79e7d35d-70f9-404b-ab8c-2f3dc4c80291
+
+
 - Email helpers - auto-completing
 
   - Subject line
   - Email body
+
+https://github.com/nsunami/dmp-helper-chrome/assets/17035406/30eef1ad-ed31-479e-b6e5-285870aebc62
 
 - Complete feedback button on the DMP view
