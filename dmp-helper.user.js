@@ -123,7 +123,7 @@ const completeBtn = document.createElement("button");
 completeBtn.innerText = "Complete";
 completeBtn.className = "btn btn-primary";
 completeBtn.addEventListener("click", () => {
-  // Confirm
+  // Confirmation dialog
   let confirmedFeedbackComplete = window.confirm(
     'Do you want to mark this DMP as "feedback complete?"'
   );
