@@ -8,6 +8,10 @@
 // @description 9/11/2023, 1:11:00 PM
 // ==/UserScript==
 
+// Get the host name
+const currentHostname = window.location.hostname;
+console.log(currentHostname);
+
 // Envelope icon
 const biEnvelope = `
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -126,7 +130,7 @@ completeBtn.addEventListener("click", () => {
 
   if (confirmedFeedbackComplete) {
     window.location.assign(
-      `https://dmponline.eur.nl/org_admin/plans/${dmpId}/feedback_complete`
+      `https://${currentHostname}/org_admin/plans/${dmpId}/feedback_complete`
     );
   }
 });
