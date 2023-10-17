@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        DMP Online Helper
 // @namespace   Violentmonkey Scripts
-// @match       *://*.dmponline.eur.nl/*/edit
+// @match       *://*.dmponline.*/*/edit
 // @grant       none
 // @version     1.0
 // @author      Nami Sunami
@@ -75,6 +75,7 @@ menuContainer.style.paddingLeft = "1rem";
 menuContainer.style.paddingRight = ".5rem";
 menuContainer.style.borderTopLeftRadius = "1rem";
 menuContainer.style.borderBottomLeftRadius = "1rem";
+menuContainer.style.zIndex = "999";
 
 // Email actions container
 const emailActionsContainer = document.createElement("div");
