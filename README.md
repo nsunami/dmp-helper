@@ -1,13 +1,19 @@
 # DMP Helper
 
-Making Data Steward's life a bit easier via a Chrome extension
+Making Data Steward's life a bit easier via a Userscript
 
 ## How to install
 
-1. Got to Settings -> Extensions (or chrome://extensions)
-2. Turn on "Developer mode"
-3. Select "Load unpacked", and load this repository
+1. Get a browser extension to run Userscript (e.g., Violentmonkey)
+2. Load the `dmp-helper.user.js` file
 
 ## Features
 
-- Auto-expand the sections under "Write Plan" tab
+- Auto-expanding all the sections under the "Write Plan" tab
+
+- Email helpers - auto-completing
+
+  - Subject line
+  - Email body
+
+- Complete feedback button on the DMP view
