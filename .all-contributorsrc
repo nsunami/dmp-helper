@@ -16,6 +16,15 @@
         "code",
         "maintenance"
       ]
+    },
+    {
+      "login": "Paolo",
+      "name": "Paolo Castro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21358?v=4",
+      "profile": "https://github.com/paolo",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
