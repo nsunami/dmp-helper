@@ -1,4 +1,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/nsunami/dmp-helper?color=ee8449&style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # DMP Helper
 
@@ -33,6 +36,20 @@ https://github.com/nsunami/dmp-helper-chrome/assets/17035406/30eef1ad-ed31-479e-
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://naoyukisunami.com"><img src="https://avatars.githubusercontent.com/u/17035406?v=4?s=100" width="100px;" alt="Nami Sunami"/><br /><sub><b>Nami Sunami</b></sub></a><br /><a href="https://github.com/nsunami/dmp-helper/commits?author=nsunami" title="Code">💻</a> <a href="#maintenance-nsunami" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
