@@ -52,21 +52,21 @@ window.onload = () => {
   loader.style.display = "none"
 }
 
-// Get the title of the DMP (from the H1 Tag)
-const dmpTitle = document.querySelector(
-  "#maincontent > div:nth-child(2) > div > h1"
-)
+// Get the title of the DMP from the Webpage Title
+docTitleRe = /(.*)( - ).*/gm
+docTitleMatch = docTitleRe.exec(document.title)
+const dmpTitle = docTitleMatch[1]
 
+// Getting the DMP ID from the URL
 const currentURL = window.location.href
-
 // const dmpIdRe = /(?<=dmponline\.eur\.nl\/plans\/)\d+/gm;
 dmpIdRe = /dmponline.+plans\/(\d+)/gm
 const dmpIdMatch = dmpIdRe.exec(currentURL)
 const dmpId = dmpIdMatch[1]
 
-const emailSubject = `DMP Feedback Complete - "${dmpTitle.innerText}" - ${dmpId}`
+const emailSubject = `DMP Feedback Complete - "${dmpTitle}" - ${dmpId}`
 
-const emailTemplate = `I provided feedback to your DMP, "<a href="${currentURL}">${dmpTitle.innerText}</a>". My comments are in the comments tab.`
+const emailTemplate = `I provided feedback to your DMP, "<a href="${currentURL}">${dmpTitle}</a>". My comments are in the comments tab.`
 
 // Menu container
 const menuContainer = document.createElement("div")
