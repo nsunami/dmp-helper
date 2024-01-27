@@ -10,7 +10,6 @@
 
 // Get the host name
 const currentHostname = window.location.hostname
-console.log(currentHostname)
 
 // Envelope icon
 const biEnvelope = `
