@@ -1,7 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # DMP Helper
@@ -43,6 +41,7 @@ https://github.com/nsunami/dmp-helper-chrome/assets/17035406/30eef1ad-ed31-479e-
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://naoyukisunami.com"><img src="https://avatars.githubusercontent.com/u/17035406?v=4?s=100" width="100px;" alt="Nami Sunami"/><br /><sub><b>Nami Sunami</b></sub></a><br /><a href="https://github.com/nsunami/dmp-helper/commits?author=nsunami" title="Code">💻</a> <a href="#maintenance-nsunami" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/paolo-rossini-1991"><img src="https://avatars.githubusercontent.com/u/96546050?v=4?s=100" width="100px;" alt="paolo-rossini-1991"/><br /><sub><b>paolo-rossini-1991</b></sub></a><br /><a href="https://github.com/nsunami/dmp-helper/issues?q=author%3Apaolo-rossini-1991" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
